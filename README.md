@@ -15,10 +15,10 @@ Lexa operates as a hybrid architecture leveraging the performance of Rust and th
 ```mermaid
 graph TD
     UserInput[Source Code] --> Detection[Language Detection]
-    Detection --> Parser[Tree-Sitter Parser (WASM)]
+    Detection --> Parser["Tree-Sitter Parser (WASM)"]
     Parser --> AST[Abstract Syntax Tree]
-    AST --> Engine[Core Refactoring Engine (Rust)]
-    Engine --> Rules[Rule Matcher (JSON Definitions)]
+    AST --> Engine["Core Refactoring Engine (Rust)"]
+    Engine --> Rules["Rule Matcher (JSON Definitions)"]
     Rules --> Mutation[AST Mutation]
     Mutation --> DiffGen[Diff Generator]
     DiffGen --> Output[Interactive Diff & Timeline]
