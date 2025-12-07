@@ -1,0 +1,22 @@
+{
+    "name": "lexa-cli",
+    "version": "0.1.0",
+    "description": "CLI for LEXA - The Adaptive Code Refactor Engine",
+    "bin": {
+        "lexa": "./bin/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "refactor",
+        "cli",
+        "lexa"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "commander": "^9.0.0",
+        "chalk": "^5.0.0"
+    }
+}
