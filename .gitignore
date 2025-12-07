@@ -1,0 +1,22 @@
+
+# Dependencies
+node_modules
+/core/target
+/ui/web/.next
+/ui/web/out
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode
+.idea
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local Docs
+HIRING_PITCH.md
