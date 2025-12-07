@@ -3,6 +3,8 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 ![Rust](https://img.shields.io/badge/built%20with-Rust-orange)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frainel-projects%2Fopen-source-lexa&project-name=lexa-playground&repository-name=lexa-playground&root-directory=ui%2Fweb)
+
 
 **LEXA** is a deterministic, educational refactoring engine designed to help developers write better code. It parses source code, applies strict refactoring rules, and produces detailed, interactive before-and-after diffs to explain the *why* behind every change.
 

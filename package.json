@@ -1,0 +1,15 @@
+{
+    "name": "lexa-monorepo",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "npm run dev --prefix ui/web",
+        "build:ui": "npm run build --prefix ui/web",
+        "lexa": "node cli/lexacli/bin/index.js",
+        "test": "echo \"Run cargo test for core\" && exit 0"
+    },
+    "workspaces": [
+        "ui/web",
+        "cli/lexacli"
+    ]
+}
